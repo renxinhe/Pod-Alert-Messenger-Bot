@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}
+Oops!
+{% endblock %}
+
+{% block css %}
+<link href="{{ url_for('static', filename = 'page_not_found.css') }}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div id="404-card-col" class="col-md-8 offset-md-2">
+            <div id="404-card" class="card text-center" style="width: 100%;">
+                <img class="card-img-top" src="https://coubsecure-s.akamaihd.net/get/b40/p/coub/simple/cw_timeline_pic/f6c76b91f45/f3df5f25a62014280b0c9/big_1409082379_1382454019_image.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">404 Not Found</h5>
+                    <p class="card-text">Oh, Pooh Bear! You're stuck because we don't have that page for you.</p>
+                    <a href="/" class="card-link">Go home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
