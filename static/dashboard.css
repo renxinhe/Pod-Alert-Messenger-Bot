@@ -2,3 +2,12 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+#loading-bar {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#loading-bar .progress {
+    height: 5%;
+}
